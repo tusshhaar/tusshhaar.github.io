@@ -189,6 +189,7 @@
  .box>img{
     display: block;
     margin: auto;
+    margin-bottom: 20px;
     height: 250px;
     width: 250px;
     object-fit: cover;
