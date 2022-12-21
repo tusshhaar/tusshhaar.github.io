@@ -14,15 +14,17 @@
      background-color: rgb(224, 245, 240);
  }
  .text_logo{
-    width:60px;
-    height:55px;
-    border-radius: 10px;
+    width:70px;
+    /* border: 1px solid red; */
+    /* height:55px; */
+    /* border-radius: 10px; */
  }
  html{
      scroll-behavior: smooth;
  }
  #navbar>div:nth-child(1){
     margin-left: 2%;
+    /* border: 1px solid black; */
 }
  #navbar>div:nth-child(2){
      display: flex;
