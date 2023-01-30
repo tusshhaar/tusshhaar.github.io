@@ -66,7 +66,7 @@
     margin-top: 30%;
   }
   .home .home-content .text-2 {
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
   }
@@ -286,7 +286,7 @@
   }
 
 .skills>div>div>div{
-  margin: 20px;
+  margin: auto;
   width: 150px;
   /* size: 100px; */
   /* border: 1px solid black; */
@@ -570,8 +570,8 @@
     #aboutName{
       margin-left: -32%;
      }
-    text-1{
-        font-size: 15px;
+    .text-1{
+        /* font-size: 15px; */
         margin-left: 0%;
     }
     .home{
@@ -622,7 +622,7 @@
     }
 
  }
- @media (max-width:699px) and (min-width:100px){
+ /* @media (max-width:699px) and (min-width:100px){
      #navbar{
          display: none;
      }
@@ -705,6 +705,7 @@
         row-gap: 0%;
         }
     .text{
+   
         display: block;
         margin: auto;
         margin-top: 2%;
@@ -723,14 +724,16 @@
         margin: 0%;
     }
     .text-1{
+      
         font-size: 15px;
         margin-left: 0%;
     }
     .home{
         padding-left: 5%;
+        padding-right: 5%;
     }
     .text-1{
-        font-size: 20px;
+        font-size: 15px;
     }
     .text-2{
         font-size: 15px;
@@ -768,7 +771,163 @@
         padding-bottom: 30%;
       }
     
+ } */
+
+
+ @media (max-width:699px) and (min-width:100px){
+  #navbar{
+      display: none;
+  }
+  #aboutName{
+   margin-left: -5%;
+  }
+  .menu_div
+  {
+      position: fixed;
+      width: 100%;
+  }
+  #img{
+    
+      width: 170px;
+  }
+  #back{
+      font-size: 12px;
+      width: 100%;
+  }
+  .innerDiv{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  #menu{
+      display: block;
+  }
+ .home{
+     height: 500px;
  }
+ .tech_desc{
+   font-size: 13px;
+ }
+  .about-content{
+     display: block;
+     justify-content: center;
+    }
+    .about .about-content .right {
+      margin-top: 2%;
+      margin-left: 10%;
+    }
+    .about .about-content .right .text {
+      
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: -27.5%;
+      margin-bottom: 10px;
+
+    }
+    .about .about-content .right p {
+      text-align: justify;
+      width: 95%;
+      /* margin: auto; */
+      line-height: 20px;
+      font-size: 14px;
+    }
+    .about .about-content .left {
+     display: flex;
+     width: 100%;
+     margin: auto;
+     justify-content: center;
+   }
+   
+
+  .project_img{
+      width: 100%;
+  }
+  .carousel{
+     grid-template-columns: repeat(1,1fr);
+ }
+ .git_data{
+     display: block;
+ }
+ .contact-content{
+     grid-template-columns: repeat(1,1fr);
+ }
+ .right,.left{
+     margin: auto;
+     margin-top: 3%;
+ }
+ .skills-content{
+  /* border: 1px solid red; */
+     grid-template-columns: repeat(1,1fr);
+     row-gap: 0%;
+     }
+ .text{
+     display: block;
+     margin: auto;
+     margin-top: 2%;
+ }
+ .desc,.techStack{
+     width: 70%;
+     /* margin: auto; */
+ }
+ .gitContriImg{
+     width: 100%;
+ }
+ .contact-content>div{
+     margin:0%;
+ }
+ .home{
+     padding: 0%;
+     margin: 0%;
+ }
+ .text-1{
+  /* border: 1px solid red; */
+     font-size: 15px;
+     margin-left: 0%;
+ }
+ .home{
+     padding-left: 5%;
+ }
+ .text-1{
+     font-size: 20px;
+ }
+ .text-2{
+     font-size: 15px;
+ }
+ .text-3{
+     font-size: 10px;
+ }
+ .home a{
+     font-size: 15px;
+ }
+ .carousel{
+     padding-bottom: 20%;
+ }
+ .gitContribution,.gitStats{
+     margin-top: 1%;
+ }
+
+ .contact .contact-content .column {
+     width: calc(100% - 30px);
+   }
+   
+   .contact .contact-content  {
+     width: 90%;
+     margin: auto;
+   }
+   .contact .contact-content  p{
+     width: 95%;
+     margin:auto;
+   }
+   .contact{
+     padding-bottom: 5%;
+   }
+  
+   .project{
+     padding-bottom: 30%;
+   }
+ 
+}
+
 
 
  
